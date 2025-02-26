@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+  box-sizing: border-box;
+}
+
+
+
+/* <section class="main__izquierda">
+            <h1>Oops....</h1>
+            <h2>page not found</h2>
+            <p>This Page doesn't exist or was removed!
+                We suggest you back to home.</p>
+            <a href="#" class="btn">Back to home</a>
+            </section> */
+
+
+
+
+            /* 
+            .main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  min-height: 80vh;
+}
+
+.main__izquierda {
+  width: 50%;
+  padding: 20px;
+}
+
+.main__derecha {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.error {
+  max-width: 100%;
+  height: 100%;
+}
+
+.btn {
+  text-decoration: none;
+  font-size: 0.75rem;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  border: 1px solid black;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+            
+            */

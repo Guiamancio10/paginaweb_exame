@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/reset.css">
-    <link rel="stylesheet" href="/css/style.css">
+    <title>Error 404</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <!-- header -->
      <div id="container">
          <header class="header">
-            <!-- Logo -->
+            <!-- imagen Logo -->
             <img src="img/Logo.png" alt="Logo" class="header__logo">
         <!-- nav -->
        <nav class="header__menu">
@@ -21,27 +21,36 @@
             <a href="#" class="header__link4">Pricing</a>      
             <a href="#" class="header__link5">Books</a>      
             <a href="#" class="header__link6">F&Q</a>   
+            <a href="#" class="header__link7">🔍</a>
     </nav>
     </header>
 
     <!-- main -->
-     <main class="main">
-        <!-- texto y boto de pulsar para volver -->
-        <section class="texto">
-            <h1>Oops....</h1>
-            <h2>page not found</h2>
-            <p>This Page doesn`t exist or was removed!
-                We suggest you  back to home.</p>
-            <a href="#" class="boton">Back to home</a>
-            <!-- imagem  -->
-         <img src="img/error.avif" alt="Error" class="imagen error">
+    <main class="main">
+        <div class="content-wrapper">
+            <section class="main__izquierda">
+                <h1>Oops....</h1>
+                <h2>page not found</h2>
+                <p>This Page doesn't exist or was removed!
+                    We suggest you back to home.</p>
+            </section>
+            
+            <section class="main__derecha">
+                <img src="img/error.avif" alt="Error" class="error">
+            </section>
+        </div>
+        
+        <div class="button-container">
+            <a href="#" class="btn">Back to home</a>
+        </div>
+    </main>
 
-        </section>
-     </main>
+
+    </main>
 
 
     <!-- footer -->
-     <footer>
+     <footer class="footer">
         copyright &copy; 2025
      </footer>
 
